@@ -1,0 +1,31 @@
+@charset "utf-8";
+@media screen and (max-width : 1133px) {
+.container {top: 160px !important;}
+}
+@media screen and (max-width : 939px) {
+.weiterlesen {position: relative !important; width: 100% !important; height: 20px !important;}
+.weiterlesen:hover {height: 30px !important;}
+.weiterlesen .arrow {display: none !important;}
+.box.complete p {width: 95% !important; padding-right: 20px !important;}
+}
+@media screen and (min-width : 626px) and (max-width : 939px) {
+.container {width: 100% !important; left: 0 !important;}
+.bar {display: none; visibility: hidden;}
+}
+@media screen and (max-width : 625px) {
+.container {width: 100% !important; min-width: 600px !important; left: 0 !important; top: 164px !important;}
+.bar {display: none; visibility: hidden;}
+.box {margin-bottom: 40px !important;}
+}
+
+/* MOBILE iPhone 5 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+.container {width: 100% !important; left: 0 !important; top: 50px !important; min-width: inherit !important;}
+.bar {display: none; visibility: hidden;}
+.box {margin-bottom: 0px !important; padding-top: 15px !important; border-bottom: 10px solid #FFD900 !important; border-top: none !important;}
+.box.complete p {line-height: 22px; text-align: justify !important; margin-top: 5px !important; margin-bottom: 30px !important; font-size: 16px !important;}
+.box.complete p::after {content: "Weiterlesen"; font-size: 11px; color: #333; text-transform: uppercase; background: #FFD900; padding-left: 3px; padding-right: 2px; left: 10px; bottom: 2px; position: relative;}
+.weiterlesen {display: none !important;}
+.bottomBar {display: none;}
+h2 date {position: relative; bottom: 3px; !important; background: #555 !important; color: #333 !important;};
+}

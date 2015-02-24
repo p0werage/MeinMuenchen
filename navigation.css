@@ -1,0 +1,43 @@
+@charset "utf-8";
+@media screen and (min-width : 1303px) and (max-width : 1355px) {
+.navigation {font-size: 18px !important; right: 3% !important;}}
+@media screen and (min-width : 1232px) and (max-width : 1303px) {
+.navigation {font-size: 16px !important; right: 3% !important;}}
+@media screen and (min-width : 1187px) and (max-width : 1231px) {
+.navigation {font-size: 14px !important; right: 2% !important;}}
+@media screen and (min-width : 1134px) and (max-width : 1186px) {
+.navigation {font-size: 12px !important; right: 1% !important;}}
+@media screen and (min-width : 1056px) and (max-width : 1093px) {
+.navigation {font-size: 18px !important;}}
+@media screen and (min-width : 1008px) and (max-width : 1055px) {
+.navigation {font-size: 16px !important;}}
+@media screen and (min-width : 983px) and (max-width : 1007px) {
+.navigation {font-size: 14px !important;}}
+@media screen and (min-width : 940px) and (max-width : 982px) {
+.navigation {font-size: 12px !important;}}
+@media screen and (min-width : 626px) and (max-width : 939px) {
+.navigation {display: none !important; visibility: hidden !important;}
+.navigationFlip {display: inherit !important; height: 97px !important;}
+}
+@media screen and (max-width : 625px) {
+.navigation {display: none !important; visibility: hidden !important;}
+.navigationFlip {display: inherit !important; width: 100% !important; height: 21px; background: url(navi2.png); color: #ffd900; border-bottom: 3px solid #FFD900 !important;}
+.navigationFlip .padding {padding-top: 23px !important;}
+}
+@media screen and (min-width : 450px) and (max-width : 500px) {
+.navigationFlip {font-size: 16px !important;}
+}
+@media screen and (min-width : 360px) and (max-width : 449px) {
+.navigationFlip {font-size: 14px !important;}
+}
+@media screen and (max-width : 359px) {
+.navigationFlip {font-size: 12px !important;}
+}
+
+/* MOBILE iPhone 5 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+.navigation {display: none !important;}
+.navigationFlip {display: inherit !important; width: 100% !important; height: 40px !important; background: url(naviMobile.png) !important; color: #ffd900; border-bottom: 3px solid #FFD900 !important; opacity: 0.6 !important; margin-top: -43px;}
+.navigationFlip .padding {padding-top: 50px !important;}
+.navigationFlip span {font-size: 32px !important; float: left;}
+}

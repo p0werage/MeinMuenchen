@@ -1,0 +1,9 @@
+@charset "utf-8";
+@media screen and (max-width : 755px) {
+body {background-image: url(marienplatz-munichSmall.jpg) !important;}}
+
+/* MOBILE iPhone 5 */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+body {background-image: url(marienplatz-munichMobile.jpg) !important;}
+.backgroundOverlay {display: none !important;}
+}
